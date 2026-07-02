@@ -5,10 +5,14 @@ const boardWidth = columnCount * tileSize;
 const boardHeight = rowCount * tileSize;
 
 // sprites
-let blueGhosht;
+let board;
+let context;
+let blueGhost;
 let orangeGhost;
 let pinkGhost;
 let redGhost;
+let cherry;
+let scaredGhost;
 let pacManLeft;
 let pacManRight;
 let pacManUp;
